@@ -4,9 +4,10 @@ This project creates an "invisibility cloak" effect using OpenCV and Python, and
 
 ## Features
 
-- Real-time invisibility effect using a webcam.
-- Web interface to control the effect.
-- Live video stream on a web page.
+-Real-time "invisibility" effect using a webcam.
+-Detects cloak color and blends it with the background to create the illusion of invisibility.
+-Flask web application interface for controlling the effect.
+-Live video stream displayed on a web page.
 
 ## Requirements
 
