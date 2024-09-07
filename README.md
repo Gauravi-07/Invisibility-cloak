@@ -1,6 +1,6 @@
 # Invisibility Cloak Using OpenCV and Flask
 
-This project creates an "invisibility cloak" effect using OpenCV and Python, integrated into a Flask web application.
+This project creates an "invisibility cloak" effect using OpenCV and Python, and it is integrated into a Flask web application. The application captures a background, identifies specific cloak colors, and makes the wearer appear invisible by blending the cloak with the background.
 
 ## Features
 
