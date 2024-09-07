@@ -3,7 +3,7 @@ import cv2
 import time
 
 def background_create(cap, num_frames=30):
-    print("Creating background. Step out of the frame")
+    print("Creating background. Please move out of the frame.")
     backgrounds = []
     for i in range(num_frames):
         ret, frame = cap.read()
