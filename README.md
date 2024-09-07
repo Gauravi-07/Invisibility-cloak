@@ -1,21 +1,31 @@
-# Invisibility Cloak Using OpenCV
+# Invisibility Cloak Using OpenCV and Flask
 
-This project creates an "invisibility cloak" effect using OpenCV and Python. The program captures a background, identifies specific cloak colors, and makes the wearer appear invisible by blending the cloak with the background.
+This project creates an "invisibility cloak" effect using OpenCV and Python, integrated into a Flask web application.
 
 ## Features
 
-- Real-time "invisibility" effect using a webcam.
-- Detects cloak color and blends it with the background to create the illusion of invisibility.
+- Real-time invisibility effect using a webcam.
+- Web interface to control the effect.
+- Live video stream on a web page.
 
 ## Requirements
 
 - Python 3.x
 - OpenCV
 - NumPy
+- Flask
 
 ## Usage
 
-1. Step out of the frame to allow the program to capture the background.
-2. Step back into the frame carrying a piece of cloth of a specific color.
-3. Watch as the cloak blends with the background, making it appear invisible.
-4. Press `q` to exit.
+1. **Run the Flask app:**
+
+    ```bash
+    python app.py
+    ```
+
+2. **Open your browser and go to `http://localhost:5000`.**
+
+3. **Click "Start Camera" to begin the effect.**
+
+4. **Click "Stop Camera" to terminate the camera process.**
+
