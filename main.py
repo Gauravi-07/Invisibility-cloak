@@ -55,11 +55,11 @@ def main():
         cap.release()
         exit()
 
-    # Define color ranges for bright red and dark red in HSV
-    lower1 = np.array([0, 120, 70])    # Lower bound for bright red
-    upper1 = np.array([10, 255, 255])  # Upper bound for bright red
-    lower2 = np.array([170, 120, 70])  # Lower bound for dark red
-    upper2 = np.array([180, 255, 255]) # Upper bound for dark red
+    # Define color ranges for bright blue and dark blue in HSV
+    lower1 = np.array([90, 50, 50])
+    upper1 = np.array([130, 255, 255])
+    lower2 = np.array([110, 50, 50])
+    upper2 = np.array([140, 255, 255])
 
     print("Starting main loop. Press 'q' to quit.")
 
